@@ -5,8 +5,8 @@ import BottomRow from "./BottomRow";
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
-  const [scoreHome, scoreHomeAdjust] = useState(28);
-  const [scoreAway, scoreAwayAdjust] = useState(35);
+  const [scoreHome, scoreHomeAdjust] = useState(0);
+  const [scoreAway, scoreAwayAdjust] = useState(0);
   return (
     <div className="container">
       <section className="scoreboard">
